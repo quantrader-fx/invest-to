@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where to invest</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/clear.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.jpg" alt="Where to invest" height="70px"></a>
+                </div>
+                <nav class="header__nav">
+                    <a class="nav__link" href="dukascopy.html">DukasCopy PAMM</a>
+                    <a class="nav__link" target="_blank"
+                        href="https://alpari.com/ru/invest/pamm/490086/#pamm-return">Alpari PAMM</a>
+                    <a class="nav__link" target="_blank"
+                        href="https://www.myfxbook.com/members/quantrader/gatteria/9251141">Myfxbook</a>
+                    <a class="nav__link" target="_blank"
+                        href="https://collective2.com/details/139644128">Collective2</a>
+                </nav>
+                <div class="header__user">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1 class="main__header">DukasCopy PAMM</h1>
+                    <p class="main__text">Информация о принципах работы ПАММ-счетов на платформе DukasCopy детально
+                        изложены на основном сайте брокера: <a class="nav__link" target="_blank"
+                            href="https://dukascopy.com">https://dukascopy.com</a></p>
+                    <p class="main__text">В связи с политикой компании DukasCopy, результаты торговли ПАММ-счетов не
+                        являются публичными, и виджеты, содержащие графическое представление изменения баланса во
+                        времени, недоступны. В связи с этим нами разработана система ежесуточного сбора данных об
+                        изменении баланса в процентах на ПАММ-счете в автоматическом режиме с построением графика
+                        доходности по данным, сохраненным в нашей базе данных.</p>
+                    <p class="main__text">Кривая эквити ПАММ-счета в DukasCopy представлена на графике.</p>
+                    <img src="img/dukascopy_equity.jpg" alt="Equity DukasCopy PAMM" width="100%">
+
+                </div>
+                <div class="right">
+                    <div class="right__title">
+                        <h1 class="main__header">Виджеты</h1>
+                    </div>
+                    <div class="main__img">
+                        <!-- Carousel -->
+                        <div class="main__img_container">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="https://collective2.com/details/139644128" target="_blank">
+                                            <img src="https://collective2.com/performance/139644128?width=350&height=200"
+                                                class="d-block w-100" alt="Collective2 monitoring" width="350px"
+                                                height="200px">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://www.myfxbook.com/members/Quantrader/gatteria/9251141"
+                                            target="_blank">
+                                            <img alt="widget"
+                                                src="https://widgets.myfxbook.com/custom-widget?id=9251141&width=350&height=200&bart=0&linet=0&symbol=EURSEK&magic=-1&title=Gatteria&titles=12&bgColor=ccffff&gridColor=bdbdbd&lineColor=0024ff&barColor=4a63fb&bar1Color=4a63fb&fontColor=525252&chartbgc=ffffff&equityColor=e552f0">
+                                        </a>
+                                    </div>
+                                    <!--
+                                <div class="carousel-item">
+                                    <img src="img/03.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                -->
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__copyright">
+                    <i class="fa fa-copyright" aria-hidden="true"></i> 2022 - Quantrader
+                </div>
+                <div class="footer__mail">
+                    Связаться с нами можно по электронной почте:
+                    <a class="mailto__link" href="mailto:quantrader@mail.ru">quantrader@mail.ru</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap js with popper -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
